@@ -1,6 +1,7 @@
 package main
 
 import (
+	"currency_exchange_collector/config"
 	"currency_exchange_collector/registry"
 	"fmt"
 
@@ -12,5 +13,5 @@ func main() {
 	r := gin.Default()
 	fmt.Println("Running server!")
 	registry.RegisterRoutes(r)
-	r.Run()
+	r.Run(fmt.Sprintf(":%v", config.C.ServerPort))
 }

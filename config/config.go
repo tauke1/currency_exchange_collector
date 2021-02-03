@@ -13,6 +13,7 @@ type configuration struct {
 	DbPassword           string
 	DbUser               string
 	DbName               string
+	ServerPort           int
 	CryptoCompareBaseUrl string
 	FSyms                []string
 	TSyms                []string

@@ -2,6 +2,7 @@ DbHost: localhost:3306
 DbUser: root
 DbName: test1
 DbPassword: 
+ServerPort: 8080
 CryptoCompareBaseUrl: https://min-api.cryptocompare.com
 Fsyms:
   - BTS
