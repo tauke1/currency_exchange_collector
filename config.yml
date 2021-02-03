@@ -1,0 +1,20 @@
+DbHost: localhost:3306
+DbUser: root
+DbName: test1
+DbPassword: 
+CryptoCompareBaseUrl: https://min-api.cryptocompare.com
+Fsyms:
+  - BTS
+  - XRP
+  - ETH
+  - BCH
+  - EOS
+  - LTC
+  - XMR
+  - DASH
+Tsyms:
+  - USD
+  - EUR
+  - GBP
+  - JPY
+  - RUR
