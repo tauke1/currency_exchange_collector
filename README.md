@@ -9,4 +9,4 @@ Requirements not were obvious, but i tried to do all test task items
 1.3) `/ws` registers in websocket hub and immediately triggers refresh by all fsyms and tsyms in config.yml
 Notes: `price` and `refresh` triggers sends refreshed currency exchange rates to all websocket clients
 2) Maybe i did not correcly undertand of websocket usage what you wanted
-3) There are other options use GRPC instead HTTP 1.0
+3) In production i would use GRPC instead HTTP 1.0
